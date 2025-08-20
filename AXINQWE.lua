@@ -639,9 +639,10 @@ UIG.Parent = Open
         end)
 ------------------------------------------------------AL.King音乐-------------------------------------------------------
     local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://1837998675" --音乐id
+    sound.SoundId = "rbxassetid://" --音乐id
     sound.Parent = game.Workspace
     sound:Play()
+    
 ---------------分割线-------------------------------分割线-------------------------------分割线----------------
         local tab = {}
         function tab.section(tab, name, TabVal)
