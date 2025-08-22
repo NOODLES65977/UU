@@ -165,10 +165,8 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-getgenv().TEYIN="AXIN"
-loadstring(game:HttpGet('getgenv().TEYIN="AXIN"
-loadstring(game:HttpGet('https://raw.githubusercontent.com/NOODLES65977/UU/refs/heads/main/ui1.1.txt'))()
-          end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NOODLES65977/UU/refs/heads/main/AJJ.txt"))()
+    end)
 end
 local myTitle = "AXIN协议条款" 
 CreateGUI(myTitle)
